@@ -2,8 +2,8 @@ var http = require('https')
 
 const p = new Promise((resolve, reject) => {
   const request = http.request({
-    host: 'api-dev.axia.life',
-    path: '/api/chat/user/alluser',
+    host: '',
+    path: '',
     port: 443,
     method: 'GET',
     headers: {
