@@ -3,7 +3,7 @@ var http = require('https')
 const p = (host, path) => new Promise((resolve, reject) => {
   const request = http.request({
     host,
-    path',
+    path,
     port: 443,
     method: 'GET',
     headers: {
